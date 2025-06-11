@@ -14,16 +14,16 @@
     margin-bottom: 1.5rem;
   }
   
-  .btn {
-    background-color: #004b8d;
-    color: white;
+  .btn_solucao {
+    background-color: #0256a0;
+    color: #f7f7f7;
     padding: 0.75rem 1.5rem;
     text-decoration: none;
     border-radius: 5px;
-    transition: background 0.3s;
+    transition: ease-in-out 0.5s;
   }
   
-  .btn:hover {
+  .btn_solucao:hover {
     background-color: #0066cc;
   }
   
@@ -63,14 +63,4 @@
   
   .controles .next {
     right: 0;
-  }
-  
-  /* Alto contraste (pode ser ativado via classe no body, opcional) */
-  body.contraste {
-    background-color: #000;
-    color: #fff;
-  }
-  
-  body.contraste a {
-    color: #0ff;
   }
