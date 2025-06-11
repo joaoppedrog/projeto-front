@@ -15,7 +15,7 @@
   }
   
   .btn_solucao {
-    background-color: #0256a0;
+    background-color: #0455BF;
     color: #f7f7f7;
     padding: 0.75rem 1.5rem;
     text-decoration: none;
@@ -24,10 +24,10 @@
   }
   
   .btn_solucao:hover {
-    background-color: #0066cc;
+    background-color: #0055ff;
   }
   
-  .carrossel {
+  /* .carrossel {
     max-width: 800px;
     margin: 2rem auto;
     text-align: center;
@@ -63,4 +63,4 @@
   
   .controles .next {
     right: 0;
-  }
+  } */
