@@ -1,7 +1,8 @@
 header {
     background-color: transparent;
     color: #03318C;
-    padding: 1rem;
+    padding: 0.8rem 1rem;
+    font-size: 1.2rem;
   }
   
   .navbar {
