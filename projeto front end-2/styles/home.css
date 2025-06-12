@@ -1,6 +1,6 @@
 .hero {
     text-align: center;
-    padding: 21rem 1rem;
+    padding: 5rem 1rem;
     background-color: #f7f7f7;
   }
   
@@ -24,6 +24,10 @@
   .hero.aparecer p,
   .hero.aparecer .btn_link {
     opacity: 1;
+}
+
+.hero img {
+  width: 500px;
 }
   
   .btn_link {

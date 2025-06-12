@@ -1,0 +1,51 @@
+.contato-section {
+    padding: 4rem 2rem;
+    background-color: #f7f7f7;
+  }
+  
+  .contato-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    gap: 3rem;
+  }
+  
+  .contato-texto {
+    flex: 1;
+    min-width: 280px;
+    text-align: left;
+  }
+  
+  .contato-texto h2 {
+    font-size: 2.2rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .contato-texto p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+  }
+  
+  #numero-contato,
+  #email-contato {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 0.5rem;
+  }
+  
+  .contato-imagem {
+    flex: 1;
+    min-width: 280px;
+    text-align: center;
+  }
+  
+  .contato-imagem img {
+    max-width: 100%;
+    height: auto;
+  }
