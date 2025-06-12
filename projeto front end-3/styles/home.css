@@ -1,0 +1,45 @@
+.hero {
+    text-align: center;
+    padding: 21rem 1rem;
+    background-color: #f7f7f7;
+  }
+  
+  .hero h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero h2,
+  .hero p {
+    opacity: 0;
+    transition: opacity 2s ease-in;
+}
+
+  .hero.aparecer h2,
+  .hero.aparecer p,
+  .hero.aparecer .btn_link {
+    opacity: 1;
+}
+  
+  .btn_link {
+    display: inline-block;
+    padding: 0.7rem 1.5rem;
+    border: 2px solid #03318C;
+    background-color: transparent;
+    color: #03318C;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    opacity: 0;
+    transition: opacity 2s ease-in-out, background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+  }
+  
+  .btn_link:hover {
+    background-color: #03318C;
+    color: #f7f7f7;
+  }
