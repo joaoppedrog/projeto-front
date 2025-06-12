@@ -48,7 +48,8 @@
   
   .mapa-container {
     margin-top: 2rem;
-    width: 100%;
+    width: 70%;
+    margin-left: 18rem;
   }
   
   .mapa-iframe {
